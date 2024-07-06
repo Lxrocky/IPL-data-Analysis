@@ -29,8 +29,11 @@ we need to read one by one so
       Here we can see there are different types of value which is not similar the actual source so we need to fix this in different steps:
           (a) writing the code as:  ball_by_ball_df=spark.read.format("csv").option("header","true").option("inferSchema","true").load("s3://ipl-data-analysics/Ball_By_Ball.csv")
              the data type updated but this is not actual data type.
-             
-          ![image](https://github.com/Lxrocky/project/assets/164576033/2b64a5da-86c9-426d-af0c-680c43593762)
+![Screenshot 2024-07-06 124106](https://github.com/Lxrocky/project/assets/164576033/45106163-3212-4005-b08b-cfb1c19f7068)
+
+            
+
+
           
 
 

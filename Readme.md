@@ -34,6 +34,17 @@ we need to read one by one so
             for fixing this issue we need to import some packages:
 ![image](https://github.com/Lxrocky/project/assets/164576033/2733e82e-b274-4425-bece-249944e93a9b)
 
+            now we nedd to write a scema code for updating the datatype
+![image](https://github.com/Lxrocky/project/assets/164576033/7bc9a0ae-fa65-4b61-8899-299d47332804)
+
+            Again writing the code for showing the datatype
+             As we can see that the datatype is changed.
+![image](https://github.com/Lxrocky/project/assets/164576033/966043c8-c741-4a4f-a691-49fb50b6e1cb)\
+            
+
+
+            
+
             
 
 

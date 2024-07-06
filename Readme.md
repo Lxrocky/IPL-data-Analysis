@@ -24,12 +24,12 @@ Now we need create our own spark session
 
 we need to read one by one so
       (i) ball_by_ball
-
       ![image](https://github.com/Lxrocky/project/assets/164576033/e53342c6-b06b-4eea-a87a-2355291eb5f3)
 
       Here we can see there are different types of value which is not similar the actual source so we need to fix this in different steps:
           (a) writing the code as:  ball_by_ball_df=spark.read.format("csv").option("header","true").option("inferSchema","true").load("s3://ipl-data-analysics/Ball_By_Ball.csv")
-          => the data type updated but this is not actual data type.
+             the data type updated but this is not actual data type.
+             
           ![image](https://github.com/Lxrocky/project/assets/164576033/2b64a5da-86c9-426d-af0c-680c43593762)
           
 
